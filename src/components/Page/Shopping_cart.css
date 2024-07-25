@@ -1,0 +1,111 @@
+/* Container adjustments */
+.shop-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.shop-header h4 {
+  font-weight: bold;
+}
+
+.shop-breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.shop-breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.shop-breadcrumb .breadcrumb-item.active {
+  color: #6c757d;
+}
+
+/* Table styling */
+.table {
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+/* Discount form styling */
+.discount-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.discount-form .form-control {
+  flex: 1; /* Takes up the remaining space */
+  margin-right: 10px; /* Adds space between the search input and button */
+}
+
+.discount-form .btn {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Card styling for cart totals */
+.cart-total-card {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.cart-total-card h6 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cart-total-card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.cart-total-card hr {
+  margin: 20px 0;
+}
+
+.cart-total-card .btn {
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .shop-header h4 {
+    font-size: 1.5rem;
+  }
+
+  .shop-breadcrumb {
+    margin-bottom: 10px;
+  }
+
+  .table {
+    font-size: 0.9rem;
+  }
+
+  .discount-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .discount-form .form-control {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .cart-total-card .btn {
+    width: 100%;
+  }
+}

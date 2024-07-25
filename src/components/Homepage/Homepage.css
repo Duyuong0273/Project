@@ -1,0 +1,24 @@
+/* Homepage.css */
+
+.carousel-item img {
+  width: 100%;
+  max-height: 984px;
+  object-fit: cover;
+}
+.carousel-caption h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

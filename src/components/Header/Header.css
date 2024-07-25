@@ -1,0 +1,36 @@
+.bg-body-tertiary {
+  background-color: white;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #057bf9 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 250px;
+}
+.navbar .bi-search {
+  color: black;
+}
+.navbar .bi-person {
+  color: #000;
+}
+.navbar .bi-bag {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.navbar .bag-count {
+  background-color: #000000;
+  color: #ece6e6;
+  font-size: 0.8rem;
+  border-radius: 50%;
+}

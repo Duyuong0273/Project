@@ -1,0 +1,30 @@
+/* about_us.css */
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Other existing styles */
+.shop-header {
+  margin-top: 20px;
+}
+
+.shop-breadcrumb {
+  background-color: #ffffff;
+}
+
+.about-section {
+  margin-top: 30px;
+}
+
+.team-section {
+  margin-top: 50px;
+}
+
+.team-card {
+  margin-bottom: 20px;
+}

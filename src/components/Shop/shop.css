@@ -1,0 +1,48 @@
+/* shop.css */
+
+.shop-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.shop-breadcrumb {
+  margin-bottom: 20px;
+}
+
+.shop-search {
+  margin-bottom: 20px;
+}
+
+.shop-select {
+  margin-bottom: 20px;
+}
+
+.shop-dropdown {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.shop-dropdown-toggle {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.shop-dropdown-menu {
+  text-align: center;
+}
+
+.pagination-row {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+
+  .pagination > * {
+    margin: 0 5px;
+  }
+}

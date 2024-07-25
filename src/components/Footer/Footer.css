@@ -1,0 +1,45 @@
+.footer-container {
+  background-color: rgba(250, 209, 138, 0.838);
+  color: #333;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.brand-link {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-heading {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-link {
+  color: #666;
+  text-decoration: none;
+  display: inline-block; /* Change display to inline-block */
+  margin-bottom: 5px;
+}
+
+.bi {
+  font-size: 24px;
+  margin-right: 10px;
+  vertical-align: middle; /* Ensure icons align vertically */
+}
+
+.footer-hr {
+  border-color: #050505;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.footer-copyright {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0;
+}

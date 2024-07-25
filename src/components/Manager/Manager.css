@@ -1,0 +1,29 @@
+.manager-container {
+  padding: 20px;
+}
+
+.shop-header {
+  margin-bottom: 20px;
+}
+
+.side-card {
+  margin-bottom: 20px;
+}
+
+.main-card {
+  margin-bottom: 20px;
+}
+
+.add-product-card {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-card .card-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-product-card .form-group {
+  margin-bottom: 15px;
+}

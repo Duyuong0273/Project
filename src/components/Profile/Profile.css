@@ -1,0 +1,40 @@
+/* Profile.css */
+
+.Profile {
+  margin-top: 20px;
+}
+
+.profile-breadcrumb {
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile-card h1 {
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  margin-bottom: 10px;
+}
+
+.profile-card hr {
+  margin-bottom: 20px;
+}
+
+.profile-button {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.edit-section {
+  display: none;
+}
+
+.show-edit {
+  display: block;
+}
